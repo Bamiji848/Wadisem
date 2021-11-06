@@ -2,7 +2,7 @@
 {% load static %}
 <!doctype html>
 {% block title%}
-Home
+Wadisem Consulting Services
 {% endblock %}
 
 {% block content %}
@@ -100,7 +100,8 @@ Home
                             <p class="pera2">Register for JAMB,WAEC,NECO,JUPEB,IJMB,POST-UTME </p>
                             <hr>
                             <div class="blog-cap">
-                                Click <a href="" class="more-btn">here</a> for more Details
+                                Click <a href="{% url 'wadisemapp:education' %}" class="more-btn">here</a> for more
+                                Details
                             </div>
                         </div>
                     </div>
@@ -123,7 +124,8 @@ Home
                             <p class="pera2">Sales of POS Machine </p>
                             <hr>
                             <div class="blog-cap">
-                                Click <a href="" class="more-btn">here</a> for more Details
+                                Click <a href="{% url 'wadisemapp:finance' %}" class="more-btn">here</a> for more
+                                Details
                             </div>
                         </div>
                     </div>
@@ -147,7 +149,8 @@ Home
 
                             <hr>
                             <p class="blog-cap">
-                                Click <a href="" class="more-btn">here</a> for more Details
+                                Click <a href="{% url 'wadisemapp:business' %}" class="more-btn">here</a> for more
+                                Details
                             </p>
                         </div>
                     </div>
@@ -286,14 +289,13 @@ Home
     </div>
     <!-- Brand Area End -->
 
-    <!-- Blog Area Start -->
+    <!-- Gallery Area Start -->
     <div class="home-blog-area section-padding30" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <!-- Section Tittle -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-tittle text-center mb-70">
-                        <span>Our latest Updates</span>
                         <h2>Our recent updates</h2>
                     </div>
                 </div>
@@ -305,15 +307,6 @@ Home
                             <div class="blog-img">
                                 <img src="{% static 'wadisemapp/assets/img/gallery/wadisem-details.jpg' %}" alt="">
                             </div>
-                            <ul>
-                                <li class="black-bg">October 27, 2020</li>
-                                <li>By Admin - 30 Likes - 4 Comments</li>
-                            </ul>
-                            <div class="blog-cap">
-                                <h3><a href="blog_details.html">16 Easy Ideas to Use Everyday
-                                        Stuff in Kitchen.</a></h3>
-                                <a href="blog_details.html" class="more-btn">Read more</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -323,22 +316,13 @@ Home
                             <div class="blog-img">
                                 <img src="{% static 'wadisemapp/assets/img/gallery/consultancy.jpg' %}" alt="">
                             </div>
-                            <ul>
-                                <li class="black-bg">October 27, 2020</li>
-                                <li>By Admin - 30 Likes - 4 Comments</li>
-                            </ul>
-                            <div class="blog-cap">
-                                <h3><a href="blog_details.html">16 Easy Ideas to Use Everyday
-                                        Stuff in Kitchen.</a></h3>
-                                <a href="blog_details.html" class="more-btn">Read more</a>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Blog Area End -->
+    <!-- Gallery Area End -->
 
 
 </main>

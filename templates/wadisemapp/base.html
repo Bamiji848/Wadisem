@@ -72,10 +72,10 @@
                                     <li><a href="{% url 'wadisemapp:about' %}">About Us</a></li>
                                     <li><a href="#">Our Services</a>
                                         <ul class="submenu">
-                                            <li><a href="blog.html">Business</a>
+                                            <li><a href="{% url 'wadisemapp:education' %}">Education</a>
                                             </li>
-                                            <li><a href="blog_details.html">Financial</a></li>
-                                            <li><a href="elements.html">Education</a></li>
+                                            <li><a href="{% url 'wadisemapp:finance' %}">Financial</a></li>
+                                            <li><a href="{% url 'wadisemapp:business' %}">Business</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="{% url 'wadisemapp:blog' %}">WadisemBlog</a>
